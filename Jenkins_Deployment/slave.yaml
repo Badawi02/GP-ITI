@@ -24,7 +24,7 @@ spec:
       containers:
       - name: jenkins-ubuntu-slave
         imagePullPolicy: Always
-        image: gcr.io/badwy-378512/slave
+        image: kareemelkasaby/jenkins-slave-java-11
         resources:
           limits:
             memory: "500Mi"

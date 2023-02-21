@@ -25,7 +25,7 @@ spec:
           - name: docker
             mountPath: "/data"
         - name: install-kubectl
-          image: jenkins/jenkins:lts-jdk11
+          image: eslamkarim/jenkins-ansible-kubectl
           command: ["cp","/usr/local/bin/kubectl","/data/kubectl"]
           volumeMounts:
           - name: kubectl
