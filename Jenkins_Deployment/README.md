@@ -1,3 +1,3 @@
-# Kubernetes Manifests for Jenkins Deployment
+# Deploy jenkins on Kubernates
 
-Refer https://devopscube.com/setup-jenkins-on-kubernetes-cluster/ for step by step process to use these manifests.
+Refer https://github.com/Badawi02/jenkins-Project step by step from Jenkins course with eng/karim elkasaby
