@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-project-56889-badawi",
+  "private_key_id": "e5725e3f2c9235e33a2404895c5f90e81120f801",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDB+DQViUJv0ZbE\nvOOjO0htzI+U7wa3XE7bYVUlaCNt8sgKvI48UFOufHbXgVutOwq0UhbMJJbueoQC\nS/DIcGby67DyU65Akaq6smmhcJc3HlOZ8ACGKuLYMsFFtsItRc1Ssl7cFwxtG494\nyZrJC7rjGqsTzVLuv5QeFeWd3XGYAxGTQk+MC4TQDIPVuY+IraM1bcnnJcHOmsFp\nbk3SvfzOuGj75v/Vz7ouM6srQJmnEJxjwauxxN6Y9JoeUmGjl3TUcw35lqW/zq7P\n5qu09rpTf83IvWX7ZVZqlhXelwEa3jcWwISAIh9hCTAm8mY5m0ixyXgicgRHOjj4\nzSlYpNwTAgMBAAECggEAJ13tjDVoY3NhKxq/BKECiS5MMcj1Tv+QDZxKgKYLEsSE\nbxFnuLwAz9f48rIRXi4udPx4HgSLEWmSIzkwbC3L5x+IsRXktrwZr3yITbihKBGi\nnAqGwLQxh/l9Gl4GONQC4PbMo9SVtAs06inYnVchHfiKoiE45LXDJPwCtzB7XoNe\nSC80P8NbtpIkRxAtLA9JthU1ENlDWdC3Qha76mAMxvYjsIHKuY9YxkdhlLCjuQI2\njVsIRYy/9TTG6RRUkxe+jiCS/i29HRT63ByMLHu/LFowBmmu2E0s5k4cdPfi1bK+\nWvCa7Kr1ZA/hZWUK2bJ2qkMXbADIW024toMKpsekwQKBgQDtxVSozm2hckTygt1W\npwp5wxyEAuL/nlMeQ3OUGUsq769CcjED9va7o+FaNT9bTSCLWfZ+Fsm5WVqCu+8L\n5sy1jeHb7N0cia6KDZIkA4AZ+Ib+dRSTYShGhDBrRI6TlW1PGOBMhXUOeEpQg1Fg\nzvLJ3PBztQEHA5c2HSm6iglz4QKBgQDQ1zIkU2vRgbwyICzNsS9DSaacIolj1wMx\n2NHTg0n+o4bRm/KMdseM5Vr18StxjeLBnZPe0UtzvLrKCOLolNlXyexYbq0dwr1t\ns8WZSLl6CIgOO4yLWgMRaUY40Fcmhz01aG0bX5auWLevjkG55c/FW0VrryBWvYZB\nnetHC/+OcwKBgQCBWqeSJqvR9163KKbN65ZxY8pxrzhbpIDHqB6K5a/VLgyE86bi\n50qYDrIc53cObslTxp+pPTCFm6z4DtIgAXJBG21SvmwUiHriNDvbR+Q7PNAEQyHs\nhCDrLCNDWErQ06xiKcBtIPXr51lWr/pn1m6Tj5Vo/YIPlM6A7CC1kT9PQQKBgQDJ\nXwc5Ybrv/FHUX5P0DqqNDkJ6AQ9LVvL8qJ3CfrDluRZxnRamfI3z/N/VkGOcjfyd\nRu1jh5pikhPmZeUt8QEVll2v86A3tyRi2FprcGVwFzPhzWe6ouOccU9FzxaJzxOl\nIPk70NMBcAhGXjxgHQlXuqdYqzfai8seEEDic95KowKBgFtcLwaztDukGStRJdAr\nSP5QC8pmXj5eiO5m32DlPyZNaNJgREA+XYeYxyqkBMn0xEeS7mZYZSu5DFNwCJa6\n2lFqKhJ8ZOgEecmFDiz6XqAebzfIUKmew5GLmxI9WABoDP7j9IOhXGNoGMIWJAPf\n4IznBaT1WbIWIlJVDBJr3Gn0\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-manager@my-project-56889-badawi.iam.gserviceaccount.com",
+  "client_id": "106329096934010954390",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-manager%40my-project-56889-badawi.iam.gserviceaccount.com"
+}

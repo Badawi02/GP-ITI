@@ -1,4 +1,4 @@
 provider "google" {
-  project     = "my-project-56889-badawi"
+  project     = "badwy-378512"
   region      = "us-central1"
 }

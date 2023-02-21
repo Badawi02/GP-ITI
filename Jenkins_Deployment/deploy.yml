@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins
+  namespace: devops-tools
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jenkins-server
+  template:
+    metadata:
+      labels:
+        app: jenkins-server
+    spec:
+      securityContext:
+            fsGroup: 1000
+            runAsUser: 0
+      serviceAccountName: jenkins-admin
+      initContainers:
+        - name: install-docker
+          image: docker:stable
+          command: ["cp","/usr/local/bin/docker","/data/docker"]
+          volumeMounts:
+          - name: docker
+            mountPath: "/data"
+        - name: install-kubectl
+          image: jenkins/jenkins:lts-jdk11
+          command: ["cp","/usr/local/bin/kubectl","/data/kubectl"]
+          volumeMounts:
+          - name: kubectl
+            mountPath: "/data"
+      containers:
+        - name: jenkins
+          image: jenkins/jenkins:lts
+          resources:
+            requests:
+              memory: "1000Mi"
+              cpu: "500m"
+            limits:
+              memory: "1000Mi"
+              cpu: "500m"
+          ports:
+            - name: httpport
+              containerPort: 8080
+              protocol: TCP
+            - name: jnlpport
+              containerPort: 50000
+              protocol: TCP
+          volumeMounts:
+            - name: jenkins-data
+              mountPath: /var/jenkins_home
+            - name: docker-sock
+              mountPath: /var/run
+

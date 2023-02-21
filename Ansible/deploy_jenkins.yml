@@ -1,0 +1,25 @@
+- hosts: web
+  become: yes
+  gather_facts: false
+
+  vars:
+    service_account_file: my-project-56889-badawi-e5725e3f2c92.json
+    project: my-project-56889-badawi
+    auth_kind: serviceaccount
+    scopes:
+      - https://www.googleapis.com/auth/compute
+
+  tasks:
+    - name: Update repositories
+      apt:
+        update_cache: yes
+
+    - name: nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Create a Deployment
+      k8s:
+        state: present
+        src: test.yml

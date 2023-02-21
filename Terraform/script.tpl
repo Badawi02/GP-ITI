@@ -21,6 +21,13 @@ newgrp docker
 sudo apt-get install kubectl
 
 
+# ================= install kubectl ===============
+sudo apt-get update
+sudo apt-get install python3
+sudo apt-get install pip3
+pip3 install apache-airflow[kubernetes]
+
+
 # ================= install gcloud-auth-plugin ===============
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 
