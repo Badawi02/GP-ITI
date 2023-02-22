@@ -14,8 +14,10 @@ A brief description of what this project does and who it's for
 ### Project Details:
 
  - Infrastructure as code using Terraform that builds an environment on the google cloud platform
- - Dockerizing a Simple Python app
- - Deploy the app with Kubernetes 
+ - deploy jenkins on kubernates
+ - make ci/cd with jenkins :
+     - Dockerizing a Simple Python app and push it to dockerHub
+     - Deploy the app with Kubernetes 
 
 ### Getting Started
 
@@ -36,8 +38,8 @@ Now you can check your GCP account, you can see this resources has been created:
 - VPC named "vpc-network".
 - 2 Subnets "management-subnet", "restricted-subnet".
 - Service Account used by the K8S cluster and the management VM.
-- Nat in "management-subnet".
-- Private Virtual Machine in "management-subnet" subnet to manage the cluster.
+- Nat in "2 subnets".
+- Public Virtual Machine in "management-subnet" subnet to manage the cluster.
 - Private Kubernetes cluster in "restricted-subnet" with 2 worker nodes.
 
 ```bash
@@ -62,7 +64,7 @@ Now you can check your GCP account, you can see this resources has been created:
 - congiure slave for can connect with master 
 
 
-## Build and push the Python Docker Image to Docker Hub with jenkins :
+## Build and push the Python Docker Image to DockerHub with jenkins :
 - Build the Python app Docker Image.
 ```bash
     docker build -t <username>/python_app . Dockerfile
