@@ -38,12 +38,6 @@ RUN curl -fsSL https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm
     && chmod 700 get_helm.sh \
     && ./get_helm.sh
 
-#instaling NodeJs
-RUN apt update \
-    && apt install nodejs -y\
-    && apt install npm -y
-
-
 # Install Java
 RUN apt-get update && apt-get install -y openjdk-11-jdk && rm -rf /var/lib/apt/lists/*
 
