@@ -9,7 +9,7 @@ A brief description of what this project does and who it's for
 <a href="https://www.terraform.io/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/AbdEl-RahmanKhaled/AbdEl-RahmanKhaled/main/icons/terraform/terraform-original-wordmark.svg" alt="terraform" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/AbdEl-RahmanKhaled/AbdEl-RahmanKhaled/main/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/AbdEl-RahmanKhaled/AbdEl-RahmanKhaled/main/icons/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/AbdEl-RahmanKhaled/AbdEl-RahmanKhaled/main/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <i class="fas fa-user"></i>
 </p>
 
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/MicrosoftTeams-image.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/MicrosoftTeams-image.png)
 
 ### Project Details:
 
@@ -91,31 +91,43 @@ Now, you can access the Python App by hitting the Loadbalancer (External IP)
 
 ## ScreenShots :
 ----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/1.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/1.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/2.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/2.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/3.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/3.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/4.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/4.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/5.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/5.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/6.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/6.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/7.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/7.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/8.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/8.png)
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-![agent](https://github.com/Badawi02/GCP_Infrastructure_Project/blob/main/images/9.png)
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/9.png)
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/10.png)
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/11.png)
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/12.png)
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+![agent](https://github.com/Badawi02/GP-ITI-Infa/tree/main/images/13.png)
 
 ## Contributors:
 - [Ahmed Badawi](https://github.com/Badawi02)
